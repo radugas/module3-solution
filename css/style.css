@@ -1,0 +1,70 @@
+﻿*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar-brand{
+	margin-bottom: 0;
+	margin-top: 0;
+	height:auto;	
+}
+.navbar-brand a{
+	text-decoration:none;
+	color:black;	
+}
+.navbar-header button.navbar-toggle{	
+	margin-top: 35px;
+}
+#nav-list a{
+	text-align:center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+section{	
+	position:relative;
+	height:700px;
+	overflow: auto;
+	background-color: #e6e6e6;	
+	border: 1px solid black;
+	margin-bottom:30px;	
+	color: black;
+	font-family: Helvetica;
+	float: left;
+}
+
+p{
+	padding:0 10px;	
+}
+
+h3{	
+	padding-top:10px;
+	width: 100%;
+	margin-top:0;
+	font-size: 1.6em;
+	color: #000;	
+}
+section a{	
+	display:block;	
+	width:100%;
+	text-align:center;
+}
+
+
+
+/********** Large devices only **********/
+@media(min-width:992px){
+	
+}
+/********** Medium devices only **********/
+@media(min-width: 768px) and (max-width: 991px){
+	
+}
+/********** Small devices only **********/
+@media(max-width: 767px){
+	
+}
